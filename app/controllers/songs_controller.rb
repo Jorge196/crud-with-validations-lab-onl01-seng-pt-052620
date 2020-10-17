@@ -33,8 +33,8 @@ class SongsController < ApplicationController
     end
   end
 
-  def destory
-    @song.destory!
+  def destroy
+    @song.destroy
     redirect_to songs_path
   end
 
