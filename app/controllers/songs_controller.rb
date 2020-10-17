@@ -34,7 +34,7 @@ class SongsController < ApplicationController
   end
 
   def destory
-    @song.destory
+    @song.destory(song_params)
     redirect_to songs_path
   end
 
